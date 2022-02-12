@@ -1,0 +1,3295 @@
+
+
+
+
+
+
+
+
+
+
+Currículo do Sistema de Currículos Lattes (Maria José Panichi Vieira)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});	
+      				  
+      		$( function() {
+			    $( document ).tooltip();
+			 } );
+      		                                
+		
+	
+
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Currículo Lattes - Busca Textual - Visualização do Currículo 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+menu.iniciar("dados-gerais");
+
+
+Dados gerais
+
+
+menu.iniciar("formacao");
+
+
+Formação
+
+
+menu.iniciar("atuacao");
+
+
+Atuação
+
+
+Projetos
+
+
+menu.iniciar("projetos");
+
+
+menu.iniciar("producoes");
+
+
+Produções
+
+
+menu.iniciar("eventos");
+
+
+Eventos
+
+
+menu.iniciar("orientacoes");
+
+
+Orientações
+
+
+menu.iniciar("bancas");
+
+
+Bancas
+
+
+menu.iniciar("informacoes-complementares");
+
+
++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Maria José Panichi Vieira
+
+
+
+
+
+
+Endereço para acessar este CV: http://lattes.cnpq.br/7337100011232657
+
+
+
+
+ID Lattes: 
+7337100011232657
+
+
+
+
+
+
+Última atualização do currículo em 14/02/2013
+
+
+
+
+
+
+
+
+
+
+Possui graduação em Engenharia Química pela Universidade do Estado do Rio de Janeiro (1985), mestrado em Engenharia Metalúrgica pela Pontifícia Universidade Católica do Rio de Janeiro (1998) e doutorado em Engenharia Metalúrgica pela Pontifícia Universidade Católica do Rio de Janeiro (2005). Atualmente é tecnologista senior III do Centro Tecnológico do Exército. Tem experiência na área de Engenharia de Materiais e Metalúrgica, com ênfase em Eletroquímica, atuando principalmente nos seguintes temas:  pilhas de alta densidade de energia, especialmente pilhas térmicas; eletrólitos de sais fundidos; materiais catódicos, principalmente cromatos, sulfetos e pirita; desenvolvimento de eletrodos de alta temperatura e métodos de caracterização eletroquímica.
+ (Texto informado pelo autor)
+
+
+
+
+
+
+
+
+Identificação
+
+
+
+
+
+
+
+
+
+
+
+
+Nome
+
+
+
+
+
+
+
+
+Maria José Panichi Vieira
+
+
+
+
+
+
+
+
+Nome em citações bibliográficas
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+
+
+
+
+
+
+
+
+Lattes iD
+
+
+
+
+
+
+
+
+http://lattes.cnpq.br/7337100011232657
+
+
+
+
+
+
+
+
+
+
+Endereço
+
+
+
+
+
+
+
+
+
+
+
+
+Endereço Profissional
+
+
+
+
+
+
+
+
+Centro Tecnológico do Exército. 
+Av. das Américas, 28.705 / Pétala D1 / Laboratório de Química Militar
+Guaratiba
+23020-470 - Rio de Janeiro, RJ - Brasil
+Telefone: (21) 24106289
+Fax: (21) 24101421
+URL da Homepage: 
+http://www.ctex.eb.br
+
+
+
+
+
+
+
+
+Formação acadêmica/titulação
+
+
+
+
+
+
+
+
+
+
+
+
+1998 - 2005
+
+
+
+
+
+
+
+
+Doutorado em Engenharia Materiais e de Processos Químicos e Metalúrgicos
+ (Conceito CAPES 5)
+. 
+Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.
+		
+	
+Título: Eletroquímica do Dissulfeto de Ferro em Sais Fundidos, Ano de obtenção: 2005. 
+Orientador: 
+Hélio Marques Kohler. 
+Palavras-chave: Eletroquímica; Dissulfeto de ferro; Eletrólitos de sais fundidos; Pilhas térmicas.
+Grande área: Engenharias / Área: Engenharia de Materiais e Metalúrgica / Subárea: Metalurgia Extrativa / Especialidade: Eletroquímica. 
+Grande Área: Engenharias / Área: Engenharia de Materiais e Metalúrgica / Subárea: Metalurgia Extrativa / Especialidade: Sais Fundidos. 
+Setores de atividade: Energia; Fabricação de Produtos Químicos. 
+
+
+
+
+
+
+
+
+1995 - 1998
+
+
+
+
+
+
+
+
+Mestrado em Engenharia Materiais e de Processos Químicos e Metalúrgicos
+ (Conceito CAPES 5)
+. 
+Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.
+		
+	
+Título: Eletroquímica da Redução do Cromato de Cálcio,Ano de Obtenção: 1998.
+Orientador: 
+Hélio Marques Kohler.
+Palavras-chave: Eletroquímica; Cromato de cálcio; Eletrólitos de sais fundidos; Pilhas térmicas; Sobrepotenciais catódicos.
+Grande área: Engenharias / Área: Engenharia de Materiais e Metalúrgica / Subárea: Metalurgia Extrativa / Especialidade: Eletroquímica. 
+Grande Área: Engenharias / Área: Engenharia de Materiais e Metalúrgica / Subárea: Metalurgia Extrativa / Especialidade: Sais Fundidos. 
+Setores de atividade: Energia; Fabricação de Produtos Químicos. 
+
+
+
+
+
+
+
+
+1988 - 1989
+
+
+
+
+
+
+
+
+Especialização em Análise de Sistemas.  (Carga Horária: 720h). 
+Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.
+		
+	
+
+
+
+
+
+
+
+
+1980 - 1985
+
+
+
+
+
+
+
+
+Graduação em Engenharia Química. 
+Universidade do Estado do Rio de Janeiro, UERJ, Brasil.
+		
+	
+
+
+
+
+
+
+
+
+
+
+Formação Complementar
+
+
+
+
+
+
+
+
+
+
+
+
+2008 - 2008
+
+
+
+
+
+
+
+
+Metalografia Avançada e Microscopia Digital.  (Carga horária: 16h). 
+Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.
+		
+	
+
+
+
+
+
+
+
+
+2007 - 2007
+
+
+
+
+
+
+
+
+Atualização sobre avaliação do trabalho científico.  (Carga horária: 18h). 
+Associação Brasileira de Editores Científicos.
+		
+	
+
+
+
+
+
+
+
+
+2005 - 2005
+
+
+
+
+
+
+
+
+Método de Rietveld para Análise de Pós por DRX.  (Carga horária: 20h). 
+Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.
+		
+	
+
+
+
+
+
+
+
+
+2004 - 2004
+
+
+
+
+
+
+
+
+Treinamento Técnico do Potenciostato modelo PGSTAT.  (Carga horária: 11h). 
+Centro Tecnológico do Exército.
+		
+	
+
+
+
+
+
+
+
+
+2004 - 2004
+
+
+
+
+
+
+
+
+Gerenciamento de resíduos no setor Min-metalúrgico.  (Carga horária: 8h). 
+Associação Brasileira de Metalurgia e Materiais.
+		
+	
+
+
+
+
+
+
+
+
+Atuação Profissional
+
+
+
+
+
+
+
+
+Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.
+		
+	
+
+
+
+
+
+
+
+
+Vínculo institucional
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2008 - 2010
+
+
+
+
+
+
+
+
+Vínculo: Colaborador, Enquadramento Funcional: Tecnologista Senior III, Carga horária: 10
+
+
+
+
+Centro Tecnológico do Exército, CTEX, Brasil.
+		
+	
+
+
+
+
+
+
+
+
+Vínculo institucional
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1985 - Atual
+
+
+
+
+
+
+
+
+Vínculo: Servidor Público, Enquadramento Funcional: Tecnologista Senior III, Carga horária: 40, Regime: Dedicação exclusiva. 
+
+
+
+
+
+
+Atividades
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7/1985 - Atual
+
+
+
+
+
+
+
+
+Pesquisa e desenvolvimento, Laboratório de Química Militar. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Linhas de pesquisa 
+Sintese Inorgânicas
+Fontes Eletroquímicas
+
+
+
+
+
+
+
+
+Linhas de pesquisa
+
+
+
+
+
+
+
+
+
+
+1. 
+
+
+
+
+
+
+
+
+Sintese Inorgânicas
+
+
+
+
+
+
+2. 
+
+
+
+
+
+
+
+
+Fontes Eletroquímicas
+
+
+
+
+
+
+
+
+Projetos de pesquisa
+
+
+
+
+
+
+
+
+
+
+2008 - 2010
+
+
+
+
+
+
+
+
+Síntese do dissulfeto de ferro para uso em sistemas não convencionais
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Situação: Em andamento; Natureza: Pesquisa. 
+Alunos envolvidos: Doutorado: (1) . 
+Integrantes: Maria José Panichi Vieira - Integrante / Mirna Tamiozzo da Costa Rupp - Integrante / Bruno Vinícius da Fonseca Lima Amorim - Integrante / Francisco José Moura - Coordenador / Eduardo de Albuquerque Brocchi - Integrante.
+Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.
+
+
+
+
+
+
+
+
+Projetos de desenvolvimento
+
+
+
+
+
+
+
+
+
+
+2003 - 2005
+
+
+
+
+
+
+
+
+Capacitação Tecnológica no Desenvolvimento de Mísseis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Situação: Concluído; Natureza: Desenvolvimento. 
+Integrantes: Maria José Panichi Vieira - Integrante / Mirna Tamiozzo da Costa Rupp - Coordenador / Acácio Antônio Mesquita Furtado Filho - Integrante / Anderson Ricardo Almeida Schettini - Integrante.
+Financiador(es): Financiadora de Estudos e Projetos - Auxílio
+										financeiro.
+Número de produções C, T & A: 2
+
+
+
+
+
+
+
+
+Membro de corpo editorial
+
+
+
+
+
+
+
+
+
+
+
+
+2006 - Atual
+
+
+
+
+
+
+
+
+Periódico: Revista CTEx P&D
+
+
+
+
+
+
+
+
+Revisor de periódico
+
+
+
+
+
+
+
+
+
+
+
+
+2006 - Atual
+
+
+
+
+
+
+
+
+Periódico: Revista CTEx P&D
+
+
+
+
+
+
+
+
+2006 - Atual
+
+
+
+
+
+
+
+
+Periódico: Cadernos UniFOA
+
+
+
+
+
+
+
+
+Áreas de atuação
+
+
+
+
+
+
+
+
+
+
+
+
+1. 
+
+
+
+
+
+
+
+
+Grande área: Engenharias / Área: Engenharia de Materiais e Metalúrgica / Subárea: Metalurgia Extrativa/Especialidade: Eletroquímica. 
+
+
+
+
+
+
+
+
+2. 
+
+
+
+
+
+
+
+
+Grande área: Engenharias / Área: Engenharia de Materiais e Metalúrgica / Subárea: Metalurgia Extrativa/Especialidade: Caracterização Microscópica. 
+
+
+
+
+
+
+
+
+3. 
+
+
+
+
+
+
+
+
+Grande área: Engenharias / Área: Engenharia Química / Subárea: Processos Industriais de Engenharia Química/Especialidade: Processos Inorgânicos. 
+
+
+
+
+
+
+
+
+4. 
+
+
+
+
+
+
+
+
+Grande área: Engenharias / Área: Engenharia de Materiais e Metalúrgica / Subárea: Metalurgia Extrativa/Especialidade: Sais Fundidos. 
+
+
+
+
+
+
+
+
+5. 
+
+
+
+
+
+
+
+
+Grande área: Engenharias / Área: Engenharia de Materiais e Metalúrgica / Subárea: Metalurgia Extrativa/Especialidade: Hidrometalurgia. 
+
+
+
+
+
+
+
+
+6. 
+
+
+
+
+
+
+
+
+Grande área: Engenharias / Área: Engenharia de Materiais e Metalúrgica / Subárea: Metalurgia Extrativa/Especialidade: Tratamento de Minérios. 
+
+
+
+
+
+
+
+
+Idiomas
+
+
+
+
+
+
+
+
+
+
+
+
+Inglês
+
+
+
+
+
+
+
+
+Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. 
+
+
+
+
+
+
+
+
+Alemão
+
+
+
+
+
+
+
+
+Compreende Pouco, Lê Pouco. 
+
+
+
+
+
+
+
+
+Espanhol
+
+
+
+
+
+
+
+
+Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Pouco. 
+
+
+
+
+
+
+
+
+Francês
+
+
+
+
+
+
+
+
+Compreende Razoavelmente, Fala Pouco, Lê Pouco. 
+
+
+
+
+
+
+
+
+Prêmios e títulos
+
+
+
+
+
+
+
+
+
+
+
+
+2001
+
+
+
+
+
+
+
+
+Medalha do Pacificador, Ministério da Defesa - Exército Brasileiro. 
+
+
+
+
+
+
+
+
+Produções
+
+
+
+
+
+
+
+
+
+
+Produção bibliográfica
+
+
+
+
+
+
+
+
+
+
+Artigos completos publicados em periódicos
+
+
+
+
+
+
+Ordenar por
+ Ordem Cronológica 
+ Número de citações Web of science 
+ Número de citações Scopus 
+ Numero de citações Scielo 
+ Primeiro autor 
+ Impacto JCR 
+ Ordem de Importância 
+
+
+
+
+
+
+
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			
+
+
+
+
+
+
+
+
+1. 
+
+
+
+
+
+
+
+
+RUPP, Mirna Tamiozzo da Costa
+2009
+RUPP, Mirna Tamiozzo da Costa
+ ; 
+VIEIRA, M. J. P.
+ ; 
+AMORIM, B. V. F. L.
+ . Propriedades Eletroquímicas de Pilhas Térmicas de Alta Densidade de Energia. Revista CTEx P&D
+, v. III, p. 72-78, 2009. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. 
+
+
+
+
+
+
+
+
+RUPP, Mirna Tamiozzo da Costa
+2006
+RUPP, Mirna Tamiozzo da Costa
+ ; 
+AMORIM, B. V. F. L.
+ ; 
+VIEIRA, M. J. P.
+ ; VALVERDE, Luis Felipe Martins . Otimização da carga termítica do sistema eletroquímico Ca/CaCrO4. Revista CTEx P&D
+, v. 1, p. 50-53, 2006. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3. 
+
+
+
+
+
+
+
+
+AMORIM, B. V. F. L.
+2006
+AMORIM, B. V. F. L.
+ ; MOURA, F. J. ; 
+BROCCHI, E. A.
+ ; 
+RUPP, Mirna Tamiozzo da Costa
+ ; 
+VIEIRA, M. J. P.
+ ; QUEIROZ, C. A. R. . Caracterização do dissulfeto de ferro para fins eletroquímicos. Revista CTEx P&D
+, v. 1, p. 44-49, 2006. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4. 
+
+
+
+
+
+
+
+
+0.0
+VIEIRA, M. J. P.
+2003
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; 
+KOHLER, Hélio Marques
+ . Cathodic Behaviour of Pyrite With Molten Salts Electrolyte. Portugaliae Electrochimica Acta
+, Portugal, v. 21, p. 7-14, 2003. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5. 
+
+
+
+
+
+
+
+
+0.822
+VIEIRA, M. J. P.
+2003
+
+
+
+
+VIEIRA, M. J. P.
+; VILLANOVA, A. A. C. ; 
+KOHLER, Hélio Marques
+ ; 
+RUPP, Mirna Tamiozzo da Costa
+ . Characterization of Li2FeS2 from Li/FeS2 electrochemical systems. Acta Microscópica
+, v. 12, n.1, p. 141-144, 2003. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+2001
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ . Avaliação da influência da densidade de corrente no sistema eletroquímico Ca/CaCrO4. Revista Militar de Ciência e Tecnologia
+, v. XVIII, n.2, p. 25-30, 2001. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7. 
+
+
+
+
+
+
+
+
+0.312
+VIEIRA, M. J. P.
+2001
+VIEIRA, M. J. P.
+; 
+AMORIM, B. V. F. L.
+ ; 
+KOHLER, Hélio Marques
+ ; VALVERDE, Luis Felipe Martins ; 
+RUPP, Mirna Tamiozzo da Costa
+ . Análise do desempenho eletroquímico de pilhas térmicas de alta densidade de energia. Matéria (UFRJ)
+, Brasil, v. 6, n.1, 2001. 
+
+
+
+
+
+
+
+
+
+
+
+
+Trabalhos completos publicados em anais de congressos
+
+
+
+
+
+
+
+
+1. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; FURTADO FILHO, A. A. M. ; SCHETTINI, A. R. A. ; BRANT, J. . Estudo de Piritas Minerais para Aplicação em Fontes Eletroquímicas. In: 7º Encontro Técnico de Materiais & Química, 2012, Rio de Janeiro, RJ. 7º Encontro Técnico de Materiais & Química, 2012. 
+
+
+
+
+
+
+
+
+
+
+2. 
+
+
+
+
+
+
+
+
+ALMADA, G. F. ; PONZIO, E. A. ; 
+VIEIRA, M. J. P.
+ ; 
+RUPP, Mirna Tamiozzo da Costa
+ . Síntese Hidrotérmica de Pirita Visando Aplicação em Catodos de Baterias Térmicas. In: 7º Encontro Técnico de Materiais & Química, 2012, Rio de Janeiro, RJ. 7º Encontro Técnico de Materiais & Química, 2012. 
+
+
+
+
+
+
+
+
+
+
+3. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; VALVERDE, Luis Felipe Martins ; 
+AMORIM, B. V. F. L.
+ . Investigação de materiais anódicos com lítio eletroquimicamente ativo em pilhas de altas temperaturas. In: 62 Congresso Internacional Anual da Associação Brasileira de Metalurgia e Materiais, 2007, Vitória. Anais do 62 Congresso Internacional Anual da ABM. São Paulo: TecArt, 2007. p. 1362-1366. 
+
+
+
+
+
+
+
+
+
+
+4. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; 
+KOHLER, Hélio Marques
+ . Eletrodos metálicos para voltametria em haletos clorados. In: 61o. Congresso Anual da Associação Brasileira de Materiais, 2006, Rio de Janeiro. Anais do 61o. Congresso Anual da Associação Brasileira de Materiais. São Paulo: TecArt, 2006. 
+
+
+
+
+
+
+
+
+
+
+5. 
+
+
+
+
+
+
+
+
+AMORIM, B. V. F. L.
+ ; MOURA, F. J. ; 
+VIEIRA, M. J. P.
+ ; 
+RUPP, Mirna Tamiozzo da Costa
+ ; QUEIROZ, C. A. R. ; 
+BROCCHI, E. A.
+ . Caracterização do dissulfeto de ferro para aplicações eletroquímicas. In: 60o. Congresso Anual da ABM, 2005, Belo Horizonte. Anais do 60o. Congresso Anual da ABM. São Paulo - SP: Tec Art Editora Ltda, 2005. p. 659-668. 
+
+
+
+
+
+
+
+
+
+
+6. 
+
+
+
+
+
+
+
+
+AMORIM, B. V. F. L.
+ ; 
+RUPP, Mirna Tamiozzo da Costa
+ ; 
+VIEIRA, M. J. P.
+ ; VALVERDE, Luis Felipe Martins . Otimização da carga termítica do sistema eletroquímico Ca/CaCrO4. In: V Encontro Técnico de Materiais e Química, 2005, Rio de Janeiro. Anais do V Encontro Técnico de Materiais e Química, 2005. 
+
+
+
+
+
+
+
+
+
+
+7. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+KOHLER, Hélio Marques
+ ; 
+RUPP, Mirna Tamiozzo da Costa
+ . Aproveitamento de rejeitos minerais na obtenção de material catódico. In: XX Encontro Nacional de Tratamento de Minérios e Metalurgia Extrativa, 2004, Florianópolis. Anais do XX Encontro Nacional de Tratamento de Minérios e Metalurgia Extrativa, 2004. v. 1. p. 193-199. 
+
+
+
+
+
+
+
+
+
+
+8. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; FERREIRA, Roberta P. ; 
+KOHLER, Hélio Marques
+ ; VALVERDE, Luis Felipe Martins . Modelagem Térmica do Sistema Eletroquímico Ca/CaCrO4. In: 59 Congresso Anual da Associação Brasileira de Metalurgia e Materiais, 2004, São Paulo. Anais do 59 Congresso Anual da Associação Brasileira de Metalurgia e Materiais, 2004. p. 1740-1744. 
+
+
+
+
+
+
+
+
+
+
+9. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; VALVERDE, Luis Felipe Martins ; FERREIRA, Roberta P. ; CARVALHO, Vinícius Mamede ; BULHÕES, Luis Otávio de Sousa . Síntese Eletroquímica de Ligas de Alumínio Lítio. In: 59 Congresso Anual da Associação Brasileira de Metalurgia e Materiais, 2004, São Paulo. Anais do 59 Congresso Anual da Associação Brasileira de Metalurgia e Materiais, 2004. p. 2580. 
+
+
+
+
+
+
+
+
+
+
+10. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+KOHLER, Hélio Marques
+ ; 
+RUPP, Mirna Tamiozzo da Costa
+ ; VALVERDE, Luis Felipe Martins ; FERREIRA, Roberta P. ; CARVALHO, Vinícius Mamede . Influência da Variação Térmica na Cronopotenciometria de Pilhas Térmicas Ca/CaCrO4. In: XIV Simpósio Brasileiro de Eletroquímica e Eletroanalítica, 2004, Teresópolis. Anais do XIV Simpósio Brasileiro de Eletroquímica e Eletroanalítica, 2004. 
+
+
+
+
+
+
+
+
+
+
+11. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; VALVERDE, Luis Felipe Martins ; 
+RUPP, Mirna Tamiozzo da Costa
+ ; BULHÕES, Luis Otávio de Sousa ; FERREIRA, Roberta P. ; CARVALHO, Vinícius Mamede . Voltametria de Eletrodos de Alumínio em meio de CP/LiClO4. In: XIV Simpósio Brasileiro de Eletroquímica e Eletroanalítica, 2004, Teresópolis. Anais do XIV Simpósio Brasileiro de Eletroquímica e Eletroanalítica, 2004. 
+
+
+
+
+
+
+
+
+
+
+12. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; 
+KOHLER, Hélio Marques
+ . Lixiviação da pirita mineral para aplicação em sistemas energéticos primários. In: 58 Congresso Anual da Associação Brasileira de Metalurgia e Materiais, 2003, Rio de Janeiro. Anais do 58 Congresso Anual da Associação Brasileira de Metalurgia e Materiais, 2003. p. 2299-2306. 
+
+
+
+
+
+
+
+
+
+
+13. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; 
+KOHLER, Hélio Marques
+ . Processos de Polarização no Sistema Eletroquímico Li/FeS2. In: 57 Congresso Anual da Associação Brasileira de Metalurgia e Materiais, 2002, São Paulo. 57 Congresso Anual da Associação Brasileira de Metalurgia e Materiais, 2002. 
+
+
+
+
+
+
+
+
+
+
+14. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+AMORIM, B. V. F. L.
+ ; 
+KOHLER, Hélio Marques
+ ; 
+RUPP, Mirna Tamiozzo da Costa
+ ; VALVERDE, Luis Felipe Martins . Caracterização de células eletroquímicas de FeS2. In: VI Southern Hemisphere Meeting on Mineral Technology, 2001, Rio de Janeiro. Anais do VI Southern Hemisphere Meeting on Mineral Technology, 2001. v. 3. p. 3-7. 
+
+
+
+
+
+
+
+
+
+
+15. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+KOHLER, Hélio Marques
+ ; 
+RUPP, Mirna Tamiozzo da Costa
+ ; 
+AMORIM, B. V. F. L.
+ . Propriedades eletroquímicas de sistemas de sais fundidos com alta densidade de energia. In: XII Simpósio Brasileiro de Eletroquímica e Eletroanalítica, 2001, Gramado-RS. Anais do XII Simpósio Brasileiro de Eletroquímica e Eletroanalítica. São Paulo: Tec Art Editora Ltda, 2001. p. 928-930. 
+
+
+
+
+
+
+
+
+
+
+16. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; 
+KOHLER, Hélio Marques
+ ; RAVAGLIA, R. . Electrochemical characterization of calcium chromate cells through digital image processing. In: Congresso da Sociedade Brasileira de Microscopia e Microanálise, 2001, Águas de Lindóia - SP, 2001. 
+
+
+
+
+
+
+
+
+
+
+17. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; VILLANOVA, A. A. C. ; 
+AMORIM, B. V. F. L.
+ ; 
+RUPP, Mirna Tamiozzo da Costa
+ ; 
+KOHLER, Hélio Marques
+ . Estudo dos processos de polarização em sistemas eletroquímicos de alta temperatura. In: IV Encontro Técnico de Materiais e Química, 2001, Rio de Janeiro. IV Encontro Técnico de Materiais e Química, 2001. 
+
+
+
+
+
+
+
+
+
+
+18. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; VILLANOVA, A. A. C. ; 
+AMORIM, B. V. F. L.
+ ; 
+RUPP, Mirna Tamiozzo da Costa
+ . Purificação da pirita para utilização em sistemas eletroquímicos de alta densidade de energia. In: IV Encontro Técnico de Materiais e Química, 2001, Rio de Janeiro - RJ. IV Encontro Técnico de Materiais e Química, 2001. 
+
+
+
+
+
+
+
+
+
+
+19. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; 
+AMORIM, B. V. F. L.
+ ; VALVERDE, Luis Felipe Martins ; 
+KOHLER, Hélio Marques
+ . Sulfetos metálicos para aplicações em pilhas de sais fundidos. In: 550 Congresso da Associação Brasileira de Metalurgia e Materiais, 2000, Rio de Janeiro. Anais do 550 Congresso Anual da Associação Brasileira de Metalurgia e Materiais. São Paulo: Tec Art Editora Ltda, 2000. p. 618-623. 
+
+
+
+
+
+
+
+
+
+
+20. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+AMORIM, B. V. F. L.
+ ; 
+KOHLER, Hélio Marques
+ ; VALVERDE, Luis Felipe Martins ; 
+RUPP, Mirna Tamiozzo da Costa
+ . Análise do desempenho eletroquímico de pilhas térmicas de alta densidade de energia. In: Simpósio Matéria 2000, 2000, Rio de Janeiro. Anais do Simpósio Matéria 2000 / Notimat 2000. Rio de Janeiro: E-papers Serviços Editoriais Ltda, 2000. p. 137. 
+
+
+
+
+
+
+
+
+
+
+21. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; 
+KOHLER, Hélio Marques
+ . Mecanismo da redução eletroquímica do CaCrO4. In: XI Simpósio Brasileiro de Eletroquímica e Eletroanalítica, 1999, Maragogi. Anais do XI Simpósio Brasileiro de Eletroquímica e Eletroanalítica, 1999. p. 725-727. 
+
+
+
+
+
+
+
+
+
+
+22. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; 
+KOHLER, Hélio Marques
+ . Influência do sobrepotencial catódico na eletroquímica do CaCrO4. In: XI Simpósio Brasileiro de Eletroquímica e Eletroanalítica, 1999, Maragogi. Anais do XI Simpósio Brasileiro de Eletroquímica e Eletroanalítica, 1999. p. 722-725. 
+
+
+
+
+
+
+
+
+
+
+23. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+KOHLER, Hélio Marques
+ ; 
+RUPP, Mirna Tamiozzo da Costa
+ . Performance de pilhas térmicas em função da densidade de corrente. In: XI Simpósio Brasileiro de Eletroquímica e Eletroanalítica, 1999, Maragogi. Anais do XI Simpósio Brasileiro de Eletroquímica e Eletroanalítica, 1999. p. 132-135. 
+
+
+
+
+
+
+
+
+
+
+24. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ . Influência da densidade de energia nas reações de interface eletrodo-eletrólito de uma pilha térmica Ca/CaCrO4 . In: III Encontro técnico de Materiais e Química, 1999, Rio de Janeiro. Anais do III Encontro técnico de Materiais e Química, 1999. 
+
+
+
+
+
+
+
+
+
+
+25. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ . Estudo do mecanismo das reações do sistema eletroquímico Ca/LiCl-KCl/CaCrO4. In: 53o Congresso de Tecnologia Metalúrgica e Materiais / ABM, 1998, Belo Horizonte. Anais do 53o Congresso Anual da ABM. São Paulo: Tec Art Editora Ltda / Microservice Tecnologia Digital S/A, 1998. 
+
+
+
+
+
+
+
+
+
+
+26. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ . Desenvolvimento de uma pilha térmica Ca/CaCrO4 de segunda geração. In: II Encontro técnico de Materiais e Química, 1997, Rio de Janeiro. Anais do II Encontro técnico de Materiais e Química, 1997. 
+
+
+
+
+
+
+
+
+
+
+27. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+KOHLER, Hélio Marques
+ . Estudo da redução eletroquímica do cromato de cálcio. In: II Encontro técnico de Materiais e Química, 1997,  Rio de Janeiro. Anais do II Encontro técnico de Materiais e Química, 1997. 
+
+
+
+
+
+
+
+
+Resumos expandidos publicados em anais de congressos
+
+
+
+
+
+
+
+
+1. 
+
+
+
+
+
+
+
+
+Jorge, R. M. ; 
+VIEIRA, M. J. P.
+ ; Gomes, A.S. ; Nunes, R.C.R. ; FERREIRA, M. T. . Influence of Thiol Addition on Hydrogen Absorption Properties of Epoxidized Natural Rubber. In: 13th International Seminar on Elastomers, 2012, Búzios, RJ. Anais do 13th International Seminar on Elastomers, 2012. 
+
+
+
+
+
+
+
+
+
+
+2. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; 
+KOHLER, Hélio Marques
+ . Investigations of Iron Disulphide Electrode Kinetics in Molten Salts. In: 57th Annual Meeting of the Internacional Society of Electrochemistry, 2006, Edinburgh. Book of Abstracts of the 57th Annual Meeting of the Internacional Society of Electrochemistry, 2006. p. S5-P115. 
+
+
+
+
+
+
+
+
+
+
+3. 
+
+
+
+
+
+
+
+
+
+
+
+
+AMORIM, B. V. F. L.
+ ; 
+VIEIRA, M. J. P.
+ ; 
+RUPP, Mirna Tamiozzo da Costa
+ ; MOURA, F. J. . Studies of Pyrites for Electrochemical Systems. In: XX Congresso da Sociedade de Brasileira de Microscopia e Microanálise, 2005, Àguas de Líndoia. Brazilian Journal of Morphological Sciences, supplement, 2005. p. 339-339. 
+
+
+
+
+
+
+
+
+
+
+4. 
+
+
+
+
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+KOHLER, Hélio Marques
+ ; 
+RUPP, Mirna Tamiozzo da Costa
+ . Electrode Materials Aspects for Molten Salts Media. In: II Encontro da Sociedade Brasileira de Pesquisa em Materiais, 2003, Rio de Janeiro. Anais do II Encontro da Sociedade Brasileira de Pesquisa em Materiais, 2003. 
+
+
+
+
+
+
+
+
+
+
+5. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; FERREIRA, Roberta P. ; 
+RUPP, Mirna Tamiozzo da Costa
+ ; 
+KOHLER, Hélio Marques
+ . A Study of Main Parameters Affecting the Performance of the Ca/CaCrO4 Thermal Battery. In: II Encontro da Sociedade Brasileira de Pesquisa em Materiais, 2003, Rio de Janeiro. Anais do II Encontro da Sociedade Brasileira de Pesquisa em Materiais, 2003. 
+
+
+
+
+
+
+
+
+
+
+6. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+KOHLER, Hélio Marques
+ ; 
+RUPP, Mirna Tamiozzo da Costa
+ . Chemical, structural and electrochemical characterization of calcium chromate cells. In: 54th Annual Meeting of the Internacional Society of Electrochemistry, 2003, São Pedro - SP. Proceedings of 54th Annual Meeting of the Internacional Society of Electrochemistry, 2003. 
+
+
+
+
+
+
+
+
+
+
+7. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; 
+KOHLER, Hélio Marques
+ . Uma apreciação do comportamento catódico da pirita em sais fundidos. In: XV Congresso da Sociedade Ibero-americana de Electroquímica, 2002, Évora, Portugal. Anais XV Congresso da Sociedade Ibero-americana de Electroquímica, 2002. 
+
+
+
+
+
+
+
+
+
+
+8. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; 
+KOHLER, Hélio Marques
+ ; VILLANOVA, A. A. C. . Characterization of Li2FeS2 from Li/FeS2 electrochemical systems. In: Congresso da Sociedade Brasileira de Microscopia e Microanálise, 2001, Águas de Lindóia - SP. Proceedings of the XVIII Congress of the Brazilian Society for Microscopy and Microanalylis, 2001. v. 1. p. 341. 
+
+
+
+
+
+
+
+
+Resumos publicados em anais de congressos
+
+
+
+
+
+
+
+
+1. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+KOHLER, Hélio Marques
+ ; 
+RUPP, Mirna Tamiozzo da Costa
+ . Eletroquímica da Pilha Térmica Li/FeS2. In: XLII Congresso Brasileiro de Química, 2002, Rio de Janeiro. Anais do XLII Congresso Brasileiro de Química, 2002. p. 182-182. 
+
+
+
+
+
+
+
+
+
+
+2. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+KOHLER, Hélio Marques
+ ; RAVAGLIA, R. . Caracterização microscópica da interface catódica da célula eletroquímica Ca/CaCrO4. In: XL Congresso Brasileiro de Química, 2000, Recife. Anais do XL Congresso Brasileiro de Química - Química: ontem, hoje e amanhã, 2000. p. 198-199. 
+
+
+
+
+
+
+
+
+
+
+3. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; VALVERDE, Luis Felipe Martins . Determinação dos parâmetros relevantes da síntese do cromato de cálcio de alta pureza. In: XXXIX Congresso Brasileiro de Química, 1999, Goiânia. Anais do XXXIX Congresso Brasileiro de Química, 1999. p. 231. 
+
+
+
+
+
+
+
+
+
+
+4. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; VALVERDE, Luis Felipe Martins ; 
+AMORIM, B. V. F. L.
+ . Levantamento dos parâmetros operacionais da pilha térmica Li/FeS2. In: XXXIX Congresso Brasileiro de Química, 1999, Goiânia. Anais do XXXIX Congresso Brasileiro de Química, 1999. p. 229. 
+
+
+
+
+
+
+
+
+Produção técnica
+
+
+
+
+
+
+Produtos tecnológicos
+
+
+
+
+
+
+
+
+1. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; VALVERDE, Luis Felipe Martins . Pilha Térmica PTSS-CEH. 2000. 
+
+
+
+
+
+
+
+
+
+
+2. 
+
+
+
+
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; FURTADO FILHO, A. A. M. ; SCHETTINI, A. R. A. ; VALVERDE, Luis Felipe Martins . Pilha Térmica Ca/CaCrO4 de Segunda Geração. 1999. 
+
+
+
+
+
+
+
+
+
+
+3. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; FURTADO FILHO, A. A. M. ; SCHETTINI, A. R. A. ; SERRA, L. F. S. . Pilha Térmica Ca/CaCRO4 de Primeira Geração. 1994. 
+
+
+
+
+
+
+
+
+Processos ou técnicas
+
+
+
+
+
+
+
+
+1. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; VALVERDE, Luis Felipe Martins . Síntese de cromato de cálcio de alta pureza. 1999. 
+
+
+
+
+
+
+
+
+
+
+2. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+KOHLER, Hélio Marques
+ . Voltametria da redução do cromato de cálcio em sais fundidos. 1998. 
+
+
+
+
+
+
+
+
+
+
+3. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; SCHETTINI, A. R. A. ; VALVERDE, Luis Felipe Martins . Desenvolvimento de elementos eletroquímicos para pilhas térmicas. 1998. 
+
+
+
+
+
+
+
+
+
+
+4. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; VALVERDE, Luis Felipe Martins . Montagem, ativação e aquisição de dados de protótipos de pilhas térmicas. 1998. 
+
+
+
+
+
+
+
+
+Trabalhos técnicos
+
+
+
+
+
+
+
+
+1. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+. Cinética do eletrodo de FeS2/Fe em sais fundidos. 2000. 
+
+
+
+
+
+
+
+
+
+
+2. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; FURTADO FILHO, A. A. M. ; SCHETTINI, A. R. A. ; VALVERDE, Luis Felipe Martins . Desenvolvimento de pilhas térmicas de segunda geração. 1999. 
+
+
+
+
+
+
+
+
+
+
+3. 
+
+
+
+
+
+
+
+
+VIEIRA, M. J. P.
+; 
+RUPP, Mirna Tamiozzo da Costa
+ ; FURTADO FILHO, A. A. M. ; SCHETTINI, A. R. A. ; SERRA, L. F. S. . Desenvolvimento de pilhas térmicas de primeira geração. 1997. 
+
+
+
+
+
+
+
+
+Demais tipos de produção técnica
+
+
+
+
+
+
+
+
+1. 
+
+
+
+
+
+
+
+
+RUPP, Mirna Tamiozzo da Costa
+ ; 
+VIEIRA, M. J. P.
+ ; FURTADO FILHO, A. A. M. ; SCHETTINI, A. R. A. ; 
+KOHLER, Hélio Marques
+ ; PEIXOTO, F. C. ; VALVERDE, Luis Felipe Martins ; 
+AMORIM, B. V. F. L.
+ . Capacitação Tecnológica no Desenvolvimento de Mísseis. 2005. (Relatório de pesquisa). 
+
+
+
+
+
+
+
+
+
+
+Bancas
+
+
+
+
+
+
+
+
+
+
+Participação em bancas de trabalhos de conclusão
+
+
+
+
+
+
+Mestrado
+
+
+
+
+
+
+
+
+1. 
+
+
+
+
+
+
+
+
+MOURA, F. J.; 
+VIEIRA, M. J. P.
+; 
+BROCCHI, E. A.
+; 
+RUPP, Mirna Tamiozzo da Costa
+.  Participação em banca de Gabriel Evangelista Medeiros. Sintese de Dissulfeto de Ferro para Aplicação em Pilhas Térmicas. 2011. Dissertação (Mestrado em Engenharia Materiais e de Processos Químicos e Metalúrgicos) - Pontifícia Universidade Católica do Rio de Janeiro. 
+
+
+
+
+
+
+
+
+Teses de doutorado
+
+
+
+
+
+
+
+
+1. 
+
+
+
+
+
+
+
+
+Nunes, R.C.R.; Gomes, A.S.; MARQUES, M. F. V.; DIAS, M. L.; FURTADO, C. R. G.; 
+VIEIRA, M. J. P.
+.  Participação em banca de Rosane Macchiarulo Jorge. Borracha Absorvedora de Hidrogênio para Aplicações em Pirotécnicos. 2010. Tese (Doutorado em Ciência e Tecnologia de Polímeros)  - Universidade Federal do Rio de Janeiro. 
+
+
+
+
+
+
+
+
+Eventos
+
+
+
+
+
+
+
+
+
+
+
+
+Participação em eventos, congressos, exposições e feiras
+
+
+
+
+
+
+
+
+1. 
+
+
+
+
+
+
+
+
+7º Encontro Técnico de Materiais & Química.Estudo de Piritas Minerais para Aplicação em Fontes Eletroquímicas.
+							2012. (Encontro). 
+					
+
+
+
+
+
+
+
+
+
+
+2. 
+
+
+
+
+
+
+
+
+Seminário do Departamento de Ciências dos Materiais e Metalurgia.Eletroquímica de Pilhas de Alta Energia. 2008. (Seminário). 
+
+
+
+
+
+
+
+
+
+
+
+
+Orientações
+
+
+
+
+
+
+
+
+
+
+Orientações e supervisões concluídas
+
+
+
+
+
+
+Dissertação de mestrado
+
+
+
+
+
+
+
+
+1. 
+
+
+
+
+
+
+
+
+Gabriel Evangelista Medeiros. Sintese de Dissulfeto de Ferro para Aplicação em Pilhas Térmicas.
+							2011.
+						
+					Dissertação  (Mestrado em Engenharia Materiais e de Processos Químicos e Metalúrgicos)  - Pontifícia Universidade Católica do Rio de Janeiro, . Coorientador: Maria José Panichi Vieira. 
+
+
+
+
+
+
+
+
+Iniciação científica
+
+
+
+
+
+
+
+
+1. 
+
+
+
+
+
+
+
+
+Monica Pinho Barsuglia.
+							Estudo Eletroquímico do Eletrodo de Dissufelto de Ferro.
+							2002.
+							Iniciação Científica - Pontifícia Universidade Católica do Rio de Janeiro. Orientador: Maria José Panichi Vieira.
+						
+
+
+
+
+
+
+Página gerada pelo Sistema Currículo Lattes em 05/02/2022 às 16:08:23
+Baixar Currículo
+Imprimir Currículo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CNPq
+ | Uma agência do Ministério da Ciência, Tecnologia e Inovação
+
+
+
+
+
+
+
+
+
+
+Identificação
+
+
+Endereço
+
+
+Idiomas
+
+
+Prêmios e títulos
+
+
+
+
+
+
+
+
+Formação acadêmica/titulação
+
+
+Formação complementar
+
+
+
+
+
+
+
+
+Atuação profissional
+
+
+Linhas de pesquisa
+
+
+Membro de corpo editorial
+
+
+Revisor de periódico
+
+
+Áreas de atuação
+
+
+
+
+
+
+
+
+Projetos de pesquisa
+
+
+Projetos de desenvolvimento
+
+
+
+
+
+
+Produção Bibliográfica
+
+
+Artigos completos publicados em periódicos
+
+
+Artigos aceitos para publicação
+
+
+Livros e capítulos
+
+
+Textos em jornais ou revistas (magazine)
+
+
+Trabalhos publicados em anais de congressos
+
+
+Apresentações de trabalho
+
+
+Partitura musical
+
+
+Tradução
+
+
+Prefácio, pósfacio
+
+
+Outras produções bibliográficas
+
+
+Produção Técnica
+
+
+Assessoria e consultoria
+
+
+Programas de computador sem registro
+
+
+Produtos tecnológicos
+
+
+Processos e técnicas
+
+
+Trabalhos técnicos
+
+
+Cartas, mapas ou similares
+
+
+Curso de curta duração ministrado
+
+
+Desenvolvimento de material didático ou instrucional
+
+
+Editoração
+
+
+Manutenção de obra artística
+
+
+Maquete
+
+
+Entrevistas, mesas redondas, programas e comentários na mídia
+
+
+Relatório de pesquisa
+
+
+Redes sociais, websites e blogs
+
+
+Outras produções técnicas
+
+
+Produção Artística/Cultural
+
+
+Artes cênicas
+
+
+Música
+
+
+Artes visuais
+
+
+Outras produções artísticas/culturais
+
+
+
+
+
+
+
+
+Participação em eventos, congressos, exposições e feiras
+
+
+
+
+
+
+
+
+Orientações e supervisões concluídas
+
+
+Orientações e supervisões em andamento
+
+
+
+
+
+
+
+
+Participação em bancas de trabalhos de conclusão
+
+
+Participação em bancas de comissões julgadoras
+
+
+
+
+
+
+
+
+Mostrar informações complementares
+
+
+
+
